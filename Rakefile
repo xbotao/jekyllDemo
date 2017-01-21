@@ -3,6 +3,7 @@ require 'rake'
 require 'yaml'
 require 'time'
 
+//为什么输入中文会造成问题，下面的换行没有了
 SOURCE = "."
 CONFIG = {
   'version' => "0.3.0",
